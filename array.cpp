@@ -47,4 +47,4 @@ int main()
 
 
     cout << "Tampil Data Array Menggunakan For" << endl;
-    
+    for (int i = 0; i <= 4; i++)
