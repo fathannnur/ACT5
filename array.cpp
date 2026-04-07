@@ -14,7 +14,7 @@ int main()
     dataku [1] = 200;
     cout << "Isi array data kedua setelah diubah: " << dataku[1] << endl;
 
-    // mengisi data dengan perintah satu per satu
+    // mengisi data dengan perintah satu persatu
     cout << "isikan data pertama: ";
     cin >> datamu[0];
     cout << "isikan data kedua: ";
@@ -27,9 +27,23 @@ int main()
     cin >> datamu[4];
     cout << endl;
 
-    // menampilkan data dengan perintah satu per satu
+    // menampilkan data dengan perintah satu persatu
     cout << "data pertama: " << datamu[0] << endl;
     cout << "data kedua: " << datamu[1] << endl;
     cout << "data ketiga: " << datamu[2] << endl;
     cout << "data keempat: " << datamu[3] << endl;
     cout << "data kelima: " << datamu[4] << endl;
+    cout << endl;
+
+    cout << "Input Array Menggunakan For" << endl;
+    // mengisi data melalui perulangan
+    for (int i = 0; i <= 4; i++)
+    {
+        cout << "Isikan data ke-" << (i + 1) << " : ";
+        cin >> datamu[i];
+    }
+    cout << endl;
+
+
+
+    
