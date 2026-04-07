@@ -14,4 +14,3 @@ struct orang
     detailAlamat alamat;
     int umur;
 };
-
